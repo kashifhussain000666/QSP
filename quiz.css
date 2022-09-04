@@ -1,0 +1,9 @@
+div#main{
+	/*background-color: blue;*/
+}
+.error{
+	color:red;
+}
+.success, div#message{
+	color:green;
+}
