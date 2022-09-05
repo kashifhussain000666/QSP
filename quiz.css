@@ -7,3 +7,13 @@ div#main{
 .success, div#message{
 	color:green;
 }
+table, td, th {
+  border: 1px solid;
+}
+th{
+	font-weight: bold;
+}
+table {
+	width: 30%;
+  border-collapse: collapse;
+}

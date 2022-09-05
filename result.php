@@ -20,9 +20,9 @@
 		<table>
 			<thead>
 				<tr>
-					<td>Question</td>
-					<td>Answer</td>
-					<td>Actions</td>
+					<th>Question</th>
+					<th>Answer</th>
+					<th>Actions</th>
 				</tr>
 			</thead>
 			<tbody>
@@ -41,7 +41,6 @@
 		</table>
 		<br>
 		<label>Qestion Set: <?= $question_set_name ?></label>
-		<label><a href="retake.php?question_set=<?= $question_set_id; ?>">Re-take</a></label>
 
 	</div>
 	<?php require_once('footer.php') ?>

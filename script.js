@@ -2,14 +2,14 @@ $('#submit').click(function(e){
   e.preventDefault()
   var question = $('#question').val();
   var id = $('#id').val();
-  var question_set = eval(window.location.search.substr(1))
+  var question_set = $('#question_set_id').val() //eval(window.location.search.substr(1))
   if(question == ''){
     $('#validation').html('Please attempt the question');
     $('#validation').addClass('error');
   }else{
     $('#submit').prop('disabled',true);
     $.ajax({
-            url: "queries.php",
+            url: "php_script.php",
             type: "post",
             data: {
                     question:question,
@@ -30,7 +30,7 @@ $('#submit').click(function(e){
                 $('#validation').addClass('success')
                 $('#validation').html('Question Saved Successfully')
               }else{
-                window.open('result.php?message=Question set attempted&question_set='+question_set+'','_self')
+                window.open('retake.php?message=Question set attempted&question_set='+question_set+'','_self')
               }
             },
             complete: function(){
@@ -41,5 +41,28 @@ $('#submit').click(function(e){
                console.log(textStatus, errorThrown);
             }
         });
+  }
+});
+
+$('#add_question_submit').click(function(e){
+  e.preventDefault();
+  var question = $('#question').val();
+  var question_set = $('#add_question_set').val();
+
+  if(question != ''){
+    $('form').submit();
+  }else{
+    $('#validation').html('Please fill the required fields')
+  }
+});
+
+$('#add_question_set_submit').click(function(e){
+  e.preventDefault();
+  var question_set = $('#add_question_set').val();
+
+  if(question_set != ''){
+    $('form').submit();
+  }else{
+    $('#validation').html('Please fill the required fields')
   }
 });
