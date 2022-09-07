@@ -31,7 +31,7 @@ CREATE TABLE `question_results` (
   `question_answer_created_at` timestamp NULL DEFAULT NULL,
   `question_set_id` int(11) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=111 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=184 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -40,7 +40,7 @@ CREATE TABLE `question_results` (
 
 LOCK TABLES `question_results` WRITE;
 /*!40000 ALTER TABLE `question_results` DISABLE KEYS */;
-INSERT INTO `question_results` VALUES (101,13,'asasdasd',1,1,'2022-09-03 20:41:00',3),(102,12,'asdasdasd',1,1,'2022-09-03 20:41:00',3),(103,10,'asdasdasd',1,1,'2022-09-03 20:41:00',3),(104,11,'asdasd',1,1,'2022-09-03 20:41:00',3),(105,9,'asdasdasd',1,1,'2022-09-03 20:41:00',3),(106,11,'asdasd',1,0,'2022-09-03 20:45:00',3),(107,12,'asdasda',1,0,'2022-09-03 20:45:00',3),(108,13,'asdasdasd',1,0,'2022-09-03 20:45:00',3),(109,9,'asdasdasd',1,0,'2022-09-03 20:46:00',3),(110,10,'asdasdasd',1,0,'2022-09-03 20:46:00',3);
+INSERT INTO `question_results` VALUES (172,30,'Answer 3',1,0,'2022-09-05 05:52:00',12),(173,29,'Answer 2',1,0,'2022-09-05 05:52:00',12),(174,31,'Answer 4',1,0,'2022-09-05 05:53:00',12),(175,28,'Answer 1',1,0,'2022-09-05 05:53:00',12),(176,32,'Answer 1',1,0,'2022-09-05 05:53:00',13),(177,34,'Answer 3',1,0,'2022-09-05 05:53:00',13),(178,33,'Answer 2',1,0,'2022-09-05 05:53:00',13),(179,37,'Answer 3',1,1,'2022-09-05 05:56:00',14),(180,36,'Answer 2',1,1,'2022-09-05 05:56:00',14),(181,39,'Answer 5',1,1,'2022-09-05 05:57:00',14),(182,38,'Answer 4',1,1,'2022-09-05 05:57:00',14),(183,35,'Answer 1',1,1,'2022-09-05 05:57:00',14);
 /*!40000 ALTER TABLE `question_results` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -58,7 +58,7 @@ CREATE TABLE `questions` (
   `question_is_deleted` tinyint(1) DEFAULT NULL,
   `question_created_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=40 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -67,7 +67,7 @@ CREATE TABLE `questions` (
 
 LOCK TABLES `questions` WRITE;
 /*!40000 ALTER TABLE `questions` DISABLE KEYS */;
-INSERT INTO `questions` VALUES (9,3,'What is your name1?',0,NULL),(10,3,'What is your name2?',0,NULL),(11,3,'What is your name3?',0,NULL),(12,3,'What is your name4?',0,NULL),(13,3,'What is your name5?',0,NULL);
+INSERT INTO `questions` VALUES (28,12,'Question 1?',0,'2022-09-05 05:45:00'),(29,12,'Question 2?',0,'2022-09-05 05:45:00'),(30,12,'Question 3?',0,'2022-09-05 05:45:00'),(31,12,'Question 4?',0,'2022-09-05 05:45:00'),(32,13,'Question 1?',0,'2022-09-05 05:45:00'),(33,13,'Question 2?',0,'2022-09-05 05:45:00'),(34,13,'Question 3?',0,'2022-09-05 05:45:00'),(35,14,'Question 1?',0,'2022-09-05 05:45:00'),(36,14,'Question 2?',0,'2022-09-05 05:46:00'),(37,14,'Question 3?',0,'2022-09-05 05:46:00'),(38,14,'Question 4?',0,'2022-09-05 05:46:00'),(39,14,'Question 5?',0,'2022-09-05 05:46:00');
 /*!40000 ALTER TABLE `questions` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -85,7 +85,7 @@ CREATE TABLE `questions_set` (
   `question_set_is_deleted` tinyint(1) DEFAULT NULL,
   `question_set_created_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=15 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -94,7 +94,7 @@ CREATE TABLE `questions_set` (
 
 LOCK TABLES `questions_set` WRITE;
 /*!40000 ALTER TABLE `questions_set` DISABLE KEYS */;
-INSERT INTO `questions_set` VALUES (3,'set 1','1',0,NULL),(4,'set 2','2',0,NULL);
+INSERT INTO `questions_set` VALUES (12,'Question Set 1','2',0,'2022-09-05 05:44:00'),(13,'Question Set 2','2',0,'2022-09-05 05:44:00'),(14,'Question Set 3','1',0,'2022-09-05 05:44:00');
 /*!40000 ALTER TABLE `questions_set` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -111,4 +111,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2022-09-04 16:51:14
+-- Dump completed on 2022-09-06  1:57:37
