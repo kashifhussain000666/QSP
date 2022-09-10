@@ -1,68 +1,116 @@
-$('#submit').click(function(e){
-  e.preventDefault()
-  var question = $('#question').val();
-  var id = $('#id').val();
-  var question_set = $('#question_set_id').val() //eval(window.location.search.substr(1))
-  if(question == ''){
-    $('#validation').html('Please attempt the question');
-    $('#validation').addClass('error');
-  }else{
-    $('#submit').prop('disabled',true);
-    $.ajax({
-            url: "php_script.php",
-            type: "post",
-            data: {
-                    question:question,
-                    id:id,
-                    question_set_id: question_set,
-                    question_submit:"set"
-                  },
-            beforeSend: function(){
-              $('#validation').html('')
-            },
-            success: function (response) {
-              var data = JSON.parse(response);
-              if(data.result != null){
-                $('#id').val(data.result.id);
-                $('#question').val('')
-                $('#question_label').html(data.result.question_text)
-                $('#question_count').html(data.count);
-                $('#validation').addClass('success')
-                $('#validation').html('Question Saved Successfully')
-              }else{
-                window.open('retake.php?message=Question set attempted&question_set='+question_set+'','_self')
-              }
-            },
-            complete: function(){
-              // $('#validation').html('')
-              $('#submit').prop('disabled',false);
-            },
-            error: function(jqXHR, textStatus, errorThrown) {
-               console.log(textStatus, errorThrown);
-            }
-        });
-  }
-});
+function RegisterformValidation(){
+	var first_name = document.getElementById('first_name').value;
+	var last_name = document.getElementById('last_name').value;
+	var email = document.getElementById('email').value;
+	var password = document.getElementById('password').value;
+	var c_password = document.getElementById('c_password').value;
+	var username = document.getElementById('username');
+	var phone = document.getElementById('phone');
+	if(first_name == ""){
+		alert("First Name field must be filled")
+		return false;
+	}else if(last_name == ""){
+		alert("Last Name field must be filled")
+		return false;
+	}else if(email == ""){
+		alert("Email field must be filled")
+		return false;
+	}else if(password != c_password){
+		alert("Password does not match")
+		return false;
+	}else{
+		if(!validateUsername(username)){
+			return false
+		}
+		if(!validatePhone(phone)){
+			return false
+		}
+	}	
 
-$('#add_question_submit').click(function(e){
-  e.preventDefault();
-  var question = $('#question').val();
-  var question_set = $('#add_question_set').val();
+	
+}
 
-  if(question != ''){
-    $('form').submit();
-  }else{
-    $('#validation').html('Please fill the required fields')
-  }
-});
+function PasswordRestformValidation(){
+	var password = document.getElementById('new_password').value;
+	var c_password = document.getElementById('c_new_password').value;
+	if(password == "" || c_password == ""){
+		alert("All the fields are required")
+		return false;
+	}else if(password != c_password){
+		alert("Password does not match")
+		return false;
+	}else{
+		return true;
+	}	
+}
 
-$('#add_question_set_submit').click(function(e){
-  e.preventDefault();
-  var question_set = $('#add_question_set').val();
 
-  if(question_set != ''){
-    $('form').submit();
-  }else{
-    $('#validation').html('Please fill the required fields')
-  }
-});
+function validatePhone(fld) {
+    var error = "";
+    var stripped = fld.value.replace(/[\(\)\.\-\ ]/g, '');
+   if (fld.value == "") {
+        error = "You didn't enter a phone number.\n";
+        fld.style.background = 'Yellow';
+        alert(error);
+        return false;
+    } else if (isNaN(parseInt(stripped))) {
+        error = "The phone number contains illegal characters. Don't include dash (-)\n";
+        fld.style.background = 'Yellow';
+        alert(error);
+        return false;
+    } else if (!(stripped.length == 10)) {
+        // error = "The phone number is the wrong length. Make sure you included an area code. Don't include dash (-)\n";
+        // fld.style.background = 'Yellow';
+        // alert(error);
+        return true;
+    }
+    return true;
+}
+
+function validateUsername(fld) {
+    var error = "";
+    var illegalChars = /\W/; // allow letters, numbers, and underscores
+    if (fld.value == "") {
+        fld.style.background = 'Yellow';
+        error = "You didn't enter a username.\n";
+        alert(error);
+        return false;
+    } else if ((fld.value.length < 5) || (fld.value.length > 15)) {
+        fld.style.background = 'Yellow';
+        error = "The username is the wrong length.\n";
+        alert(error);
+        return false;
+    } else if (illegalChars.test(fld.value)) {
+        fld.style.background = 'Yellow';
+        error = "The username contains illegal characters.\n";
+        alert(error);
+        return false;
+    } else {
+        fld.style.background = 'White';
+    }
+    return true;
+}
+
+function validateUsername(fld) {
+    var error = "";
+    var illegalChars = /\W/; // allow letters, numbers, and underscores
+    if (fld.value == "") {
+        fld.style.background = 'Yellow';
+        error = "You didn't enter a username.\n";
+        alert(error);
+        return false;
+    } else if ((fld.value.length < 5) || (fld.value.length > 15)) {
+        fld.style.background = 'Yellow';
+        error = "The username is the wrong length.\n";
+        alert(error);
+        return false;
+    } else if (illegalChars.test(fld.value)) {
+        fld.style.background = 'Yellow';
+        error = "The username contains illegal characters.\n";
+        alert(error);
+        return false;
+    } else {
+        fld.style.background = 'White';
+    }
+    return true;
+}
