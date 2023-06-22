@@ -1,0 +1,642 @@
+Version =20
+VersionRequired =20
+Checksum =148173957
+Begin Form
+    AutoCenter = NotDefault
+    AllowDesignChanges = NotDefault
+    AllowUpdating =4
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =11040
+    DatasheetFontHeight =10
+    ItemSuffix =28
+    Left =1335
+    Top =2910
+    Right =12510
+    Bottom =8565
+    DatasheetGridlinesColor =12632256
+    MaxRecords =0
+    BeforeDelConfirm ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x13cf8a6e6deee540
+    End
+    OnDirty ="[Event Procedure]"
+    Caption ="frmProvidorFeesAbeton"
+    BeforeInsert ="[Event Procedure]"
+    OnDelete ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =600
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =60
+                    Top =300
+                    Width =2700
+                    Height =240
+                    FontWeight =700
+                    Name ="DrOpCode_Label"
+                    Caption ="Product"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =3480
+                    Top =120
+                    Width =900
+                    Height =420
+                    FontWeight =700
+                    Name ="ProviderFee_Label"
+                    Caption ="Provider\015\012Fee"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =4440
+                    Top =120
+                    Width =900
+                    Height =420
+                    FontWeight =700
+                    Name ="InvoiceAmount_Label"
+                    Caption ="Invoice\015\012Amount"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =5520
+                    Top =60
+                    Width =1800
+                    Height =240
+                    FontWeight =700
+                    Name ="InvoiceNoShowFee_Label"
+                    Caption ="No Show"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =9240
+                    Top =120
+                    Width =900
+                    Height =420
+                    FontWeight =700
+                    Name ="LateCancelDays_Label"
+                    Caption ="Cancel\015\012Days"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =5520
+                    Top =300
+                    Width =900
+                    Height =240
+                    FontWeight =700
+                    Name ="Label20"
+                    Caption ="Invoice"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =6420
+                    Top =300
+                    Width =900
+                    Height =240
+                    FontWeight =700
+                    Name ="Label21"
+                    Caption ="Voucher"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =7365
+                    Top =60
+                    Width =1815
+                    Height =240
+                    FontWeight =700
+                    Name ="Label22"
+                    Caption ="Late Cancel"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =95
+                    TextAlign =2
+                    Left =7380
+                    Top =300
+                    Width =900
+                    Height =240
+                    FontWeight =700
+                    Name ="Label23"
+                    Caption ="Invoice"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =8280
+                    Top =300
+                    Width =900
+                    Height =240
+                    FontWeight =700
+                    Name ="Label24"
+                    Caption ="Voucher"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =10140
+                    Top =120
+                    Width =900
+                    Height =420
+                    FontWeight =700
+                    Name ="Label27"
+                    Caption ="Don't\015\012Update"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3480
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="ProviderFee"
+                    ControlSource ="ProviderFee"
+                    Format ="$#,##0.00;($#,##0.00)"
+                    OnExit ="[Event Procedure]"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =4440
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="InvoiceAmount"
+                    ControlSource ="InvoiceAmount"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =5400
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =3
+                    Name ="InvoiceNoShowFee"
+                    ControlSource ="InvoiceNoShowFee"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =6360
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =4
+                    Name ="VoucherNoShowFee"
+                    ControlSource ="VoucherNoShowFee"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =7320
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =5
+                    Name ="InvoiceLateCancelFee"
+                    ControlSource ="InvoiceLateCancelFee"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =8280
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =6
+                    Name ="VoucherLateCancelFee"
+                    ControlSource ="VoucherLateCancelFee"
+                    Format ="$#,##0.00;($#,##0.00)"
+
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =9240
+                    Top =60
+                    Width =900
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =7
+                    Name ="LateCancelDays"
+                    ControlSource ="LateCancelDays"
+                    Format ="General Number"
+
+                End
+                Begin ComboBox
+                    TabStop = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Top =60
+                    Width =3420
+                    Name ="cboProdCode"
+                    ControlSource ="ProdCode"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+
+                End
+                Begin CheckBox
+                    OverlapFlags =85
+                    Left =10440
+                    Top =60
+                    TabIndex =8
+                    Name ="chkDontUpdate"
+                    ControlSource ="dontupdate"
+                    DefaultValue ="0"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private cbxProdCode As New CbxProduct
+Private parentKey As Long
+
+Public Sub Parent_Current(ParentID As Long)
+    Dim strSQL As String
+    
+    parentKey = ParentID
+    strSQL = "SELECT * FROM tblAbetonProviderFees WHERE FeeCode = " & ParentID & " AND DrOpCode = " & Me.Parent.txtDoctorCode & _
+             " AND OfficeCode = " & Me.Parent.cboofficecode & " AND CaseType = " & Me.Parent.cbocasetype & " ORDER BY ProdCode"
+    Debug.Print strSQL
+    Set Me.Recordset = DBConnection.ExecuteQuery(strSQL, False, , ConnectedRSEnum.Connected)
+    
+    Call cbxProdCode.InitializeComboBox(Me.cboProdCode, True, True, App.CurrentOfficeCode, "SELECT DISTINCT ProdCode FROM tblAbetonProviderFees WHERE FeeCode=" & ParentID)
+
+End Sub
+
+Private Sub Form_Dirty(Cancel As Integer)
+    If Not GetUserSecurity("editfeeschedule") Then
+        MsgBox (App.Username & " is not authorized to edit Fee Schedules.  Please see your system administrator")
+        Me.Undo
+        Cancel = True
+    End If
+End Sub
+
+Private Sub ProviderFee_Exit(Cancel As Integer)
+    If Not IsNull(parentKey) And Not IsNull(Me!ProviderFee) And Me.chkDontUpdate = False Then
+        Me.InvoiceAmount = Calculate_Abeton_Invoice_Amount(Me!FeeCode, Me!ProdCode, Me.Parent.txtDoctorCode, Me.Parent.cboofficecode, Me.Parent.cbocasetype, Me!ProviderFee)
+    End If
+End Sub
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me!dateadded = GetDataCenterDateTime
+    Me!useridadded = App.Username
+    Me!FeeCode = parentKey
+    Me!OfficeCode = Me.Parent.cboofficecode
+    Me!CaseType = Me.Parent.cbocasetype
+    Me!DrOPCode = Me.Parent.txtDoctorCode
+ 
+End Sub
+
+Private Sub Form_BeforeUpdate(Cancel As Integer)
+On Error GoTo err_form_beforeupdate
+
+Dim strErrorMsg As String
+    
+    If IsNull(Me!ProdCode) Then
+        strErrorMsg = "Product is Required"
+        Cancel = True
+    End If
+
+    If Cancel = True Then
+        DoCmd.Beep
+        MsgBox strErrorMsg
+    Else
+        Me!dateedited = GetDataCenterDateTime
+        Me!useridedited = App.Username
+    End If
+
+exit_form_beforeupdate:
+    Exit Sub
+
+err_form_beforeupdate:
+    MsgBox Err.description
+    Resume exit_form_beforeupdate
+
+End Sub
+
+
+Private Sub Form_BeforeDelConfirm(Cancel As Integer, response As Integer)
+    ' Suppress default Delete Confirm dialog box.
+    response = acDataErrContinue
+End Sub
+
+Private Sub Form_Delete(Cancel As Integer)
+    If MsgBox("Are you sure to delete the record?", vbYesNo, "Delete Confirmation") = vbNo Then Cancel = True
+End Sub

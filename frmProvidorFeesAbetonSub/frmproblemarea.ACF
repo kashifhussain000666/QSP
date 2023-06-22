@@ -1,0 +1,639 @@
+Version =20
+VersionRequired =20
+Checksum =-543425289
+Begin Form
+    AutoResize = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    MaxRecButton = NotDefault
+    AllowUpdating =4
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =9750
+    DatasheetFontHeight =10
+    ItemSuffix =30
+    Left =3072
+    Top =1536
+    Right =13368
+    Bottom =6648
+    DatasheetGridlinesColor =12632256
+    MaxRecords =0
+    BeforeDelConfirm ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x916bf588d0dae540
+    End
+    Caption =" Problem: Adrenal Insufficiency"
+    BeforeInsert ="[Event Procedure]"
+    OnDelete ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010403069c00900343b7000201000100ea0a6f08640001000f00580201000100 ,
+        0x5802030001004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x020000000c010000ffffffff4749533400000000000000000000000044494e55 ,
+        0x2200180174031c001a6d7f6a0000000000000000000000000000000000000000 ,
+        0x0000000000000000090000000100000000000000010000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000100000000000000000000000000000000000000 ,
+        0x00000000000000000000000000000000000000000000000018010000534d544a ,
+        0x00000000100008017b00420032003800410032003300420037002d0034004600 ,
+        0x310043002d0034003700380042002d0038003300410030002d00320039004400 ,
+        0x3900310041004300320030003900460030007d000000496e70757442696e0044 ,
+        0x656661756c7400524553444c4c00556e69726573444c4c004475706c6578004e ,
+        0x4f4e4500446f63756d656e744e5570003100436f6c6c617465004f4e00506170 ,
+        0x657253697a65004c4554544552004f7269656e746174696f6e00504f52545241 ,
+        0x4954005265736f6c7574696f6e0036303078363030004d656469615479706500 ,
+        0x4155544f00000000000000000000000000000000000000000000000000000000 ,
+        0x000000000000000000000000000000001c0000005634444d0100000000000000 ,
+        0x000000000000000000000000
+    End
+    PrtDevNames = Begin
+        0x0800280047000100000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x000000000000005753442d62383737393037362d323434612d343331652d3861 ,
+        0x39382d6535303365656437373937362e3030363800
+    End
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    OrderByOnLoad =0
+    OrderByOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =315
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =60
+                    Top =60
+                    Width =2580
+                    Height =240
+                    FontWeight =700
+                    Name ="description_Label"
+                    Caption ="Area"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =3915
+                    Top =60
+                    Width =1140
+                    Height =240
+                    FontWeight =700
+                    Name ="dateedited_Label"
+                    Caption ="Last Edited"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =3915
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5055
+                    LayoutCachedHeight =300
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =6615
+                    Top =60
+                    Width =1740
+                    Height =240
+                    FontWeight =700
+                    Name ="useridedited_Label"
+                    Caption ="By"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =6615
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =8355
+                    LayoutCachedHeight =300
+                End
+                Begin TextBox
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =8790
+                    Top =60
+                    Width =324
+                    Name ="txtProblemcode"
+                    ControlSource ="ProblemCode"
+
+                    LayoutCachedLeft =8790
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =9114
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =408
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =3915
+                    Top =60
+                    Width =2490
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="dateedited"
+                    ControlSource ="DateEdited"
+                    Format ="General Date"
+                    StatusBarText ="date record last edited"
+
+                    LayoutCachedLeft =3915
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6405
+                    LayoutCachedHeight =315
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =6630
+                    Top =45
+                    Width =2880
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="useridedited"
+                    ControlSource ="UserIDEdited"
+                    StatusBarText ="user who last edited record"
+
+                    LayoutCachedLeft =6630
+                    LayoutCachedTop =45
+                    LayoutCachedWidth =9510
+                    LayoutCachedHeight =300
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =60
+                    Top =60
+                    Width =3708
+                    ColumnWidth =2310
+                    Name ="cbodescription"
+                    ControlSource ="ProblemAreaCode"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+                    StatusBarText ="description"
+                    CanGrow =255
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3768
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin FormFooter
+            Height =765
+            BackColor =-2147483633
+            Name ="FormFooter"
+            Begin
+                Begin CommandButton
+                    Visible = NotDefault
+                    OverlapFlags =85
+                    Left =690
+                    Top =60
+                    Width =672
+                    Height =288
+                    Name ="cmdCancel"
+                    Caption ="Cancel"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =690
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1362
+                    LayoutCachedHeight =348
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =8175
+                    Top =255
+                    Height =404
+                    TabIndex =1
+                    Name ="cmdSave"
+                    Caption ="Close"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =8175
+                    LayoutCachedTop =255
+                    LayoutCachedWidth =9615
+                    LayoutCachedHeight =659
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+Dim problemCodeForArea As Long
+
+
+Public blnModify As Boolean
+Public blnDelete As Boolean
+
+Private Sub Form_BeforeUpdate(Cancel As Integer)
+    If IsNull(Me!txtProblemCode) Then
+        MsgBox ("Problem selected is required")
+        Cancel = True
+    Else
+        Me!DateEdited = GetDataCenterDateTime
+        Me!UserIDEdited = App.Username
+        Me!txtProblemCode = problemCodeForArea
+    End If
+End Sub
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me!DateAdded = GetDataCenterDateTime
+    Me!UserIDAdded = App.Username
+    Me!DateEdited = GetDataCenterDateTime
+    Me!UserIDEdited = App.Username
+    Me!txtProblemCode = problemCodeForArea
+End Sub
+
+Private Sub Form_BeforeDelConfirm(Cancel As Integer, response As Integer)
+    ' Suppress default Delete Confirm dialog box.
+    response = acDataErrContinue
+End Sub
+
+Private Sub Form_Delete(Cancel As Integer)
+   blnDelete = True
+End Sub
+
+Private Sub Form_Load()
+Dim description As String
+Dim strSQL As String
+Dim sSplit() As String
+Dim iCtr As Integer
+
+    strSQL = "Select problemareacode, Description from tblProblemArea"
+    Set Me.cbodescription.Recordset = DBConnection.ExecuteQuery(strSQL)
+    
+    If Not IsNull(Me.OpenArgs) Then
+        sSplit = Split(Me.OpenArgs, ":")
+        If UBound(sSplit) > 0 Then
+            For iCtr = 0 To UBound(sSplit)
+                If iCtr = 0 Then
+                    description = CStr(sSplit(iCtr))
+                ElseIf iCtr = 1 Then
+                    problemCodeForArea = CLng(sSplit(iCtr))
+                End If
+            Next iCtr
+        End If
+    End If
+    
+    strSQL = "Select * from tblProblemDetail where ProblemCode = " & problemCodeForArea
+    Set Me.Recordset = DBConnection.ExecuteQuery(strSQL, False, , ConnectedRSEnum.Connected)
+
+    strSQL = "Select problemareacode, Description from tblProblemArea Order By Description "
+    Set Me.cbodescription.Recordset = DBConnection.ExecuteQuery(strSQL)
+    
+    Me.caption = " Problem: " & description
+    blnDelete = False
+    blnModify = False
+    
+End Sub
+
+Private Sub Form_Open(Cancel As Integer)
+    'see if user is valid to open form
+    If Not GetUserSecurity("ViewSetup") Then
+        MsgBox (App.Username & " is not authorized to view setup information.  Please see your system administrator")
+        DoCmd.Close acForm, Me.Name
+    End If
+    Me.AllowAdditions = App.IsAdmin
+    Me.AllowEdits = App.IsAdmin
+    Me.AllowDeletions = App.IsAdmin
+
+End Sub
+
+Private Sub cmdcancel_Click()
+On Error GoTo Err_cmdCancel_Click
+    'DoCmd.runCommand acCmdUndo
+    Me.Undo
+    DoCmd.Close acForm, Me.Name
+Exit_cmdCancel_Click:
+    Exit Sub
+
+Err_cmdCancel_Click:
+    MsgBox Err.description
+    Resume Exit_cmdCancel_Click
+    
+End Sub
+
+Private Sub cmdSave_Click()
+On Error GoTo Err_cmdSave_Click
+
+    blnModify = Me.dirty
+    If Me.dirty = True Then
+        DoCmd.runCommand acCmdSaveRecord
+    End If
+   
+    Me.visible = False
+    'DoCmd.Close acForm, Me.Name
+Exit_cmdSave_Click:
+    Exit Sub
+
+Err_cmdSave_Click:
+    MsgBox Err.description
+    Resume Exit_cmdSave_Click
+    
+End Sub

@@ -1,0 +1,428 @@
+Version =20
+VersionRequired =20
+Checksum =355395623
+Begin Form
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    AllowDesignChanges = NotDefault
+    AllowUpdating =4
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =7860
+    DatasheetFontHeight =10
+    ItemSuffix =6
+    Left =1395
+    Top =3360
+    Right =9750
+    Bottom =9495
+    DatasheetGridlinesColor =12632256
+    MaxRecords =0
+    BeforeDelConfirm ="[Event Procedure]"
+    RecSrcDt = Begin
+        0x64be475eeeede540
+    End
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =360
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =60
+                    Top =60
+                    Width =3000
+                    Height =240
+                    FontWeight =700
+                    Name ="lblOfficeCode"
+                    Caption ="Office"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =3120
+                    Top =60
+                    Width =2310
+                    Height =240
+                    FontWeight =700
+                    Name ="lblDateAdded"
+                    Caption ="Added"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =5490
+                    Top =60
+                    Width =2310
+                    Height =240
+                    FontWeight =700
+                    Name ="lblUserIDAdded"
+                    Caption ="By"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            Height =375
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =3120
+                    Top =60
+                    Width =2310
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="txtDateAdded"
+                    ControlSource ="DateAdded"
+
+                End
+                Begin TextBox
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5490
+                    Top =60
+                    Width =2310
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="txtUserIDAdded"
+                    ControlSource ="UserIDAdded"
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =60
+                    Top =60
+                    Width =3000
+                    ColumnWidth =600
+                    Name ="cboOfficeCode"
+                    ControlSource ="OfficeCode"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private parentKey As Long
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me!dateadded = GetDataCenterDateTime
+    Me!useridadded = App.Username
+    Me!FeeCode = parentKey
+End Sub
+
+Private Sub Form_Load()
+    Dim strSQL As String
+    
+    strSQL = "SELECT OfficeCode, Description FROM tblOffice ORDER BY Description"
+    Set Me.cboofficecode.Recordset = DBConnection.ExecuteQuery(strSQL)
+End Sub
+
+Public Sub Parent_Current(ParentID As Long)
+    Dim strSQL As String
+    
+    parentKey = ParentID
+    strSQL = "SELECT * FROM tblFeeHeaderOffice WHERE FeeCode = " & ParentID
+    Set Me.Recordset = DBConnection.ExecuteQuery(strSQL, False, , ConnectedRSEnum.Connected)
+
+End Sub
+
+Private Sub Form_BeforeDelConfirm(Cancel As Integer, response As Integer)
+    ' Suppress default Delete Confirm dialog box.
+    response = acDataErrContinue
+End Sub

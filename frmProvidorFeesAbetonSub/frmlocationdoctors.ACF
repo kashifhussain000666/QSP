@@ -1,0 +1,518 @@
+Version =20
+VersionRequired =20
+Checksum =-1827657406
+Begin Form
+    AutoCenter = NotDefault
+    AllowDeletions = NotDefault
+    AllowDesignChanges = NotDefault
+    MaxRecButton = NotDefault
+    AllowUpdating =4
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =8040
+    DatasheetFontHeight =10
+    ItemSuffix =10
+    Left =7080
+    Top =3000
+    Right =15495
+    Bottom =8805
+    DatasheetGridlinesColor =12632256
+    MaxRecords =0
+    RecSrcDt = Begin
+        0xbd890d86b3e4e540
+    End
+    OnDirty ="[Event Procedure]"
+    Caption ="frmlocationdoctors"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    OnLoad ="[Event Procedure]"
+    FilterOnLoad =0
+    OrderByOnLoad =0
+    OrderByOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =360
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    TextAlign =2
+                    Left =60
+                    Top =60
+                    Width =2820
+                    Height =240
+                    FontWeight =700
+                    Name ="doctorcode_Label"
+                    Caption ="Doctor"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =87
+                    TextAlign =2
+                    Left =2880
+                    Top =60
+                    Width =900
+                    Height =240
+                    FontWeight =700
+                    Name ="status_Label"
+                    Caption ="Status"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =3825
+                    Top =60
+                    Width =1995
+                    Height =240
+                    FontWeight =700
+                    Name ="schedulethru_Label"
+                    Caption ="Scheduled Thru"
+                    Tag ="DetachedLabel"
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =5865
+                    Top =60
+                    Width =1815
+                    Height =240
+                    FontWeight =700
+                    Name ="correspondence_Label"
+                    Caption ="Send Correspond to"
+                    Tag ="DetachedLabel"
+                End
+            End
+        End
+        Begin Section
+            Height =375
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =3840
+                    Top =60
+                    Width =1980
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="schedulethru"
+                    ControlSource ="schedulethru"
+
+                End
+                Begin ComboBox
+                    RowSourceTypeInt =1
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =2880
+                    Top =60
+                    Width =900
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="status"
+                    ControlSource ="status"
+                    RowSourceType ="Value List"
+                    RowSource ="Active;Inactive"
+                    DefaultValue ="\"Active\""
+
+                End
+                Begin ComboBox
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =60
+                    Top =60
+                    Width =2760
+                    ColumnWidth =600
+                    Name ="cbodoctorcode"
+                    ControlSource ="doctorcode"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =93
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListRows =2
+                    Left =5880
+                    Top =60
+                    Width =1800
+                    TabIndex =3
+                    Name ="correspondence"
+                    ControlSource ="correspondence"
+                    RowSourceType ="Value List"
+                    RowSource ="D;Doctor;E;Exam"
+                    ColumnWidths ="0;576"
+                    StatusBarText ="Location to send correspondence"
+                    DefaultValue ="\"D\""
+
+                End
+                Begin CommandButton
+                    TabStop = NotDefault
+                    OverlapFlags =215
+                    Left =7680
+                    Top =60
+                    Width =246
+                    Height =246
+                    TabIndex =4
+                    Name ="cmddoctorform"
+                    Caption ="Command31"
+                    OnClick ="[Event Procedure]"
+                    PictureData = Begin
+                        0x280000001000000010000000010018000000000000030000130b0000130b0000 ,
+                        0x0000000000000000deebefdeebefdeebefdeebefdeebefdeebefdeebefdeebef ,
+                        0xdeebefdeebefdeebefdeebefdeebefdeebefdeebefdeebefffffffffffffffff ,
+                        0xffffffffffffffffffffffffffffffff9c9a9c848284ffffffffffffffffffff ,
+                        0xffffffffffdeebefffffffffffffffffffffffffffffffffffffefefdeefebce ,
+                        0x7b796b949684e7e3d6ffffffffffffffffffffffffdeebefffffffffffffffff ,
+                        0xffffffffffffffefefcee7e7c6efebcee7e3c652554af7f3cee7e3c6ffffffff ,
+                        0xffffffffffdeebef9c9a9c080c089492949492947b7d6b3134297b7d6b7b7d6b ,
+                        0x1818104a4d42a5a68c9c9e8c94967bbdbabd636563deebef7b7d7bffffff6365 ,
+                        0x63ffffeff7f3ce636152e7e7c67b796b8482739c9a8463655ae7e7c6e7e7c6ff ,
+                        0xffe78c8e8cdeebefcecfce525552848284efebcee7e7c684826b8c8a7bdedfbd ,
+                        0x4a4d42525142dedbbd84826befefce4a4d39ffffffdeebefe7e7e78c8a8cdedf ,
+                        0xdef7f7d6bdbaa55a594a4241394a49428486738c8a73292c29424139737563de ,
+                        0xdfbdffffffdeebefffffff313431e7e3e73938295a5d52efefcec6c3a5424139 ,
+                        0x848273bdba9c9c9e8cadae9cefefcededbbdffffffdeebefffffffcecbce7b79 ,
+                        0x7b8c8a73b5b29cf7f3d66b6d5ad6d7bdf7f3d6c6c3ad7b7d6be7e7c6dedfbdde ,
+                        0xdbb5ffffffdeebeffffffffffffffffffff7f7e7e7e3c6d6d3b5949684848673 ,
+                        0x6b695aefefcececfb5636552e7e7c6e7e7d6ffffffdeebefffffffffffffffff ,
+                        0xffffffffe7e7c67b796b84827b6b6d5a737563efebce94927b6b6d5ae7e7c6ff ,
+                        0xffffffffffdeebefffffffffffffffffffffffffffffff9c9a8473716b5a594a ,
+                        0xdedfe752554a94967b4a4939ffffffffffffffffffdeebefffffffffffffffff ,
+                        0xffffffffffffffb5b6b57b79738c8a7b6365529c9a848c8e7bdedbdeffffffff ,
+                        0xffffffffffdeebefffffffffffffffffffffffffffffff7b797bffffff737573 ,
+                        0x949294a5a2a5292c29ffffffffffffffffffffffffdeebefffffffffffffffff ,
+                        0xffffffffffffffcecbce9c9e9c8c8e8cadaaad8c8a8cffffffffffffffffffff ,
+                        0xffffffffffdeebef
+                    End
+                    ObjectPalette = Begin
+                        0x000301000000000000000000
+                    End
+                    ControlTipText ="View Doctor"
+                    Picture ="doctor.bmp"
+
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private parentKey As Long
+
+Public Sub Parent_Current(LocationCode As Long)
+    parentKey = LocationCode
+    Set Me.Recordset = DBConnection.ExecuteQuery("SELECT * FROM tblDoctorLocation WHERE LocationCode=" & LocationCode, False, , ConnectedRSEnum.Connected)
+End Sub
+
+Private Sub cmddoctorform_Click()
+    If IsNull(Me.cboDoctorCode) Then
+        MsgBox ("You must select a row containing a doctor.")
+    Else
+        'pass openargs of doctorcode so form knows which doctor to find
+        DoCmd.OpenForm "frmdoctor", , , , , acDialog, Me.cboDoctorCode
+        Call Parent_Current(parentKey)
+        Me.cboDoctorCode.Requery
+    End If
+
+End Sub
+
+
+Private Sub Form_Dirty(Cancel As Integer)
+    If Not GetUserSecurity("EditLocation") Then
+        MsgBox (App.Username & " is not authorized to edit doctor location information.  Please see your system administrator")
+        Me.Undo
+        Cancel = True
+    End If
+
+End Sub
+
+Private Sub Form_Load()
+
+    Dim strSQL As String
+    strSQL = "SELECT doctorcode, ISNULL(lastname, '') + ', ' + ISNULL(firstname, '') AS doctorname " & _
+             " FROM tblDoctor ORDER BY lastname, firstname"
+    Set Me.cboDoctorCode.Recordset = DBConnection.ExecuteQuery(strSQL)
+
+End Sub
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me!DateAdded = GetDataCenterDateTime
+    Me!UserIDAdded = App.Username
+    Me!LocationCode = parentKey
+End Sub

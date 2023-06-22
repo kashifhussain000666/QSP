@@ -1,0 +1,515 @@
+Version =20
+VersionRequired =20
+Checksum =-367607185
+Begin Form
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    AllowUpdating =4
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =7787
+    DatasheetFontHeight =10
+    ItemSuffix =9
+    Left =1125
+    Top =2715
+    Right =13965
+    Bottom =10485
+    DatasheetGridlinesColor =12632256
+    MaxRecords =0
+    BeforeDelConfirm ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xea23b5b68dc6e540
+    End
+    Caption ="Non Work Days Office"
+    BeforeInsert ="[Event Procedure]"
+    OnOpen ="[Event Procedure]"
+    DatasheetFontName ="Arial"
+    FilterOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetGridlinesColor12 =12632256
+    Begin
+        Begin Label
+            BackStyle =0
+            BackColor =-2147483633
+            ForeColor =-2147483630
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            BackStyle =0
+            OldBorderStyle =0
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =3
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =0
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            AsianLineBreak =255
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            BackColor =-2147483643
+            ForeColor =-2147483640
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =8
+            FontWeight =400
+            FontName ="MS Sans Serif"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =420
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =105
+                    Top =60
+                    Width =1680
+                    Height =240
+                    FontWeight =700
+                    Name ="NonWorkDay_Label"
+                    Caption ="Non Work Day"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =105
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1785
+                    LayoutCachedHeight =300
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =3825
+                    Top =60
+                    Width =1800
+                    Height =240
+                    FontWeight =700
+                    Name ="dateadded_Label"
+                    Caption ="Date Added"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =3825
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5625
+                    LayoutCachedHeight =300
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =5685
+                    Top =60
+                    Width =1800
+                    Height =240
+                    FontWeight =700
+                    Name ="useridadded_Label"
+                    Caption ="By"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =5685
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7485
+                    LayoutCachedHeight =300
+                End
+                Begin Line
+                    OverlapFlags =85
+                    Left =105
+                    Top =360
+                    Width =7344
+                    Name ="Line6"
+                    LeftPadding =30
+                    TopPadding =30
+                    RightPadding =30
+                    BottomPadding =30
+                    GridlineStyleLeft =0
+                    GridlineStyleTop =0
+                    GridlineStyleRight =0
+                    GridlineStyleBottom =0
+                    GridlineWidthLeft =1
+                    GridlineWidthTop =1
+                    GridlineWidthRight =1
+                    GridlineWidthBottom =1
+                    LayoutCachedLeft =105
+                    LayoutCachedTop =360
+                    LayoutCachedWidth =7449
+                    LayoutCachedHeight =360
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =1
+                    Left =1845
+                    Top =60
+                    Width =1680
+                    Height =240
+                    FontWeight =700
+                    Name ="Label8"
+                    Caption ="Description"
+                    Tag ="DetachedLabel"
+                    LayoutCachedLeft =1845
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3525
+                    LayoutCachedHeight =300
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            BackColor =-2147483633
+            Name ="Detail"
+            Begin
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =105
+                    Top =60
+                    Width =1680
+                    Height =255
+                    ColumnWidth =2310
+                    Name ="NonWorkDay"
+                    ControlSource ="NonWorkDay"
+                    Format ="Short Date"
+                    InputMask ="99/99/0000;0;_"
+
+                    LayoutCachedLeft =105
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =1785
+                    LayoutCachedHeight =315
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =3825
+                    Top =60
+                    Width =1800
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =1
+                    Name ="dateadded"
+                    ControlSource ="dateadded"
+
+                    LayoutCachedLeft =3825
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =5625
+                    LayoutCachedHeight =315
+                End
+                Begin TextBox
+                    Locked = NotDefault
+                    TabStop = NotDefault
+                    SpecialEffect =0
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    BackStyle =0
+                    IMESentenceMode =3
+                    Left =5685
+                    Top =60
+                    Width =1800
+                    Height =255
+                    ColumnWidth =2310
+                    TabIndex =2
+                    Name ="useridadded"
+                    ControlSource ="useridadded"
+
+                    LayoutCachedLeft =5685
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7485
+                    LayoutCachedHeight =315
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1845
+                    Top =60
+                    Width =1920
+                    Height =255
+                    TabIndex =3
+                    Name ="Text7"
+                    ControlSource ="Description"
+                    Format ="Short Date"
+
+                    LayoutCachedLeft =1845
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =3765
+                    LayoutCachedHeight =315
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Private parentKey As Long
+
+Public Sub Parent_Current(ParentID As Long)
+    Dim strSQL As String
+    
+    parentKey = ParentID
+    
+    strSQL = "SELECT * FROM tblNonWorkDaysOffice WHERE OfficeCode = " & ParentID
+    Set Me.Recordset = DBConnection.ExecuteQuery(strSQL, False, , ConnectedRSEnum.Connected)
+End Sub
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me.DateAdded = GetDataCenterDateTime
+    Me.UserIDAdded = App.Username
+    Me!OfficeCode = parentKey
+End Sub
+
+Private Sub Form_Open(Cancel As Integer)
+    'see if user is valid to open form
+    If Not GetUserSecurity("ViewSetup") Then
+        MsgBox (App.Username & " is not authorized to view setup information.  Please see your system administrator")
+        DoCmd.Close acForm, Me.Name
+    End If
+
+    Me.AllowAdditions = App.IsAdmin
+    Me.AllowEdits = App.IsAdmin
+    Me.AllowDeletions = App.IsAdmin
+
+End Sub
+
+
+Private Sub Form_BeforeDelConfirm(Cancel As Integer, response As Integer)
+    ' Suppress default Delete Confirm dialog box.
+    response = acDataErrContinue
+End Sub

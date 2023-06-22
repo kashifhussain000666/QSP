@@ -1,0 +1,936 @@
+Version =20
+VersionRequired =20
+Checksum =-782675100
+Begin Form
+    AutoResize = NotDefault
+    AutoCenter = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    AllowUpdating =4
+    ViewsAllowed =1
+    TabularCharSet =162
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =14970
+    DatasheetFontHeight =11
+    ItemSuffix =27
+    Top =1785
+    Right =15315
+    Bottom =5130
+    MaxRecords =0
+    BeforeDelConfirm ="[Event Procedure]"
+    OrderBy ="Priority"
+    RecSrcDt = Begin
+        0x03231bb00c09e540
+    End
+    Caption ="Office Contact"
+    BeforeInsert ="[Event Procedure]"
+    OnDelete ="[Event Procedure]"
+    BeforeUpdate ="[Event Procedure]"
+    DatasheetFontName ="Calibri"
+    PrtMip = Begin
+        0x6801000068010000680100006801000000000000201c0000e010000001000000 ,
+        0x010000006801000000000000a10700000100000001000000
+    End
+    PrtDevMode = Begin
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x010400069c005c0303af000001000100ea0a6f08640001000f00580202000100 ,
+        0x5802030000004c65747465720000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000010000000000000001000000 ,
+        0x0200000001000000000000000000000000000000000000000000000050524956 ,
+        0xe230000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000180000000000102710271027 ,
+        0x00001027000000000000000088005c0300000000000000000000000000000000 ,
+        0x00000000000000000300000000000000000010005c4b03006843040000000000 ,
+        0x000000000000010000000000000000000000000000000000e7b14b4c03000000 ,
+        0x05000a00ff000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0100000000000000000000000000000088000000534d544a0000000010007800 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x0000000000000000000000000000000000000000000000000000000000000000 ,
+        0x000000000000000000000000000000000000000000000000
+    End
+    PrtDevNames = Begin
+        0x080013001e000100000000000000000000000000000000000000000000007064 ,
+        0x66636d6f6e00
+    End
+    OnLoad ="[Event Procedure]"
+    AllowDatasheetView =0
+    AllowPivotTableView =0
+    AllowPivotChartView =0
+    AllowPivotChartView =0
+    FilterOnLoad =0
+    OrderByOnLoad =0
+    OrderByOnLoad =0
+    DatasheetBackColor12 =16777215
+    ShowPageMargins =0
+    DatasheetAlternateBackColor =16053492
+    DatasheetGridlinesColor12 =15062992
+    FitToScreen =1
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =9
+            BorderColor =-2147483633
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Line
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Image
+            SpecialEffect =3
+            BackStyle =0
+            SizeMode =3
+            PictureAlignment =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CommandButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionButton
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CheckBox
+            SpecialEffect =2
+            LabelX =230
+            LabelY =-30
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin OptionGroup
+            SpecialEffect =2
+            BackStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin BoundObjectFrame
+            SizeMode =3
+            SpecialEffect =2
+            BackStyle =0
+            LabelX =-1800
+            BackColor =-2147483633
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin TextBox
+            FELineBreak = NotDefault
+            SpecialEffect =2
+            OldBorderStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Tahoma"
+            AsianLineBreak =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            ShowDatePicker =1
+        End
+        Begin ListBox
+            SpecialEffect =2
+            LabelX =-1800
+            FontSize =11
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            AllowValueListEdits =1
+            InheritValueList =1
+        End
+        Begin ComboBox
+            SpecialEffect =2
+            LabelX =-1800
+            FontSize =11
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+            AllowValueListEdits =1
+            InheritValueList =1
+        End
+        Begin Subform
+            SpecialEffect =2
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin UnboundObjectFrame
+            SpecialEffect =2
+            BackStyle =0
+            OldBorderStyle =1
+            BackColor =-2147483633
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin CustomControl
+            SpecialEffect =2
+            OldBorderStyle =1
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin ToggleButton
+            FontSize =9
+            FontWeight =400
+            ForeColor =-2147483630
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin Tab
+            FontSize =11
+            FontName ="Tahoma"
+            LeftPadding =30
+            TopPadding =30
+            RightPadding =30
+            BottomPadding =30
+            GridlineStyleLeft =0
+            GridlineStyleTop =0
+            GridlineStyleRight =0
+            GridlineStyleBottom =0
+            GridlineWidthLeft =1
+            GridlineWidthTop =1
+            GridlineWidthRight =1
+            GridlineWidthBottom =1
+        End
+        Begin FormHeader
+            Height =420
+            BackColor =-2147483633
+            Name ="FormHeader"
+            Begin
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =4680
+                    Top =120
+                    Width =2880
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="Email_Label"
+                    Caption ="Email"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =1
+                    GroupTable =1
+                    LayoutCachedLeft =4680
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =7560
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =7620
+                    Top =120
+                    Width =1320
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="Phone_Label"
+                    Caption ="Phone"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =2
+                    GroupTable =1
+                    LayoutCachedLeft =7620
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =8940
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =9000
+                    Top =120
+                    Width =1440
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="DateAdded_Label"
+                    Caption ="Added"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =3
+                    GroupTable =1
+                    LayoutCachedLeft =9000
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =10440
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =12000
+                    Top =120
+                    Width =1440
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="DateEdited_Label"
+                    Caption ="Edited"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =4
+                    GroupTable =1
+                    LayoutCachedLeft =12000
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13440
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =10500
+                    Top =120
+                    Width =1440
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="UserIDAdded_Label"
+                    Caption ="By"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =5
+                    GroupTable =1
+                    LayoutCachedLeft =10500
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =11940
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =13500
+                    Top =120
+                    Width =1440
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="UserIDEdited_Label"
+                    Caption ="By"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =6
+                    GroupTable =1
+                    LayoutCachedLeft =13500
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =14940
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =120
+                    Top =120
+                    Width =660
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="Priority_Label"
+                    Caption ="Priority"
+                    FontName ="MS Sans Serif"
+                    Tag ="DetachedLabel"
+                    ColumnGroup =7
+                    GroupTable =1
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =780
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =840
+                    Top =120
+                    Width =1560
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="cboLineOfBusiness_Label"
+                    Caption ="Line Of Business"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =8
+                    GroupTable =1
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =2400
+                    LayoutCachedHeight =380
+                End
+                Begin Label
+                    OverlapFlags =85
+                    TextAlign =2
+                    Left =2460
+                    Top =120
+                    Width =2160
+                    Height =260
+                    FontWeight =700
+                    BorderColor =0
+                    ForeColor =-2147483630
+                    Name ="cboDepartment_Label"
+                    Caption ="Department"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =9
+                    GroupTable =1
+                    LayoutCachedLeft =2460
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =4620
+                    LayoutCachedHeight =380
+                End
+            End
+        End
+        Begin Section
+            Height =360
+            BackColor =-2147483633
+            Name ="Detail"
+            AlternateBackColor =-2147483633
+            Begin
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =4680
+                    Top =60
+                    Width =2880
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =3
+                    BackColor =8454143
+                    Name ="txtEmail"
+                    ControlSource ="Email"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =1
+                    GroupTable =1
+                    LayoutCachedLeft =4680
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =7560
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =7620
+                    Top =60
+                    Width =1320
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =4
+                    BackColor =8454143
+                    Name ="txtPhone"
+                    ControlSource ="Phone"
+                    FontName ="MS Sans Serif"
+                    InputMask ="!\\(999\") \"000\\-0000;0;_"
+                    ColumnGroup =2
+                    GroupTable =1
+                    LayoutCachedLeft =7620
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =8940
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =9000
+                    Top =60
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =5
+                    Name ="DateAdded"
+                    ControlSource ="DateAdded"
+                    Format ="Short Date"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =3
+                    GroupTable =1
+                    LayoutCachedLeft =9000
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =10440
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =12000
+                    Top =60
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =7
+                    Name ="DateEdited"
+                    ControlSource ="DateEdited"
+                    Format ="Short Date"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =4
+                    GroupTable =1
+                    LayoutCachedLeft =12000
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =13440
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =10500
+                    Top =60
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =6
+                    Name ="UserIDAdded"
+                    ControlSource ="UserIDAdded"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =5
+                    GroupTable =1
+                    LayoutCachedLeft =10500
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =11940
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =13500
+                    Top =60
+                    Height =256
+                    ColumnWidth =3000
+                    FontSize =9
+                    TabIndex =8
+                    Name ="UserIDEdited"
+                    ControlSource ="UserIDEdited"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =6
+                    GroupTable =1
+                    LayoutCachedLeft =13500
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =14940
+                    LayoutCachedHeight =316
+                End
+                Begin TextBox
+                    DecimalPlaces =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    Left =120
+                    Top =60
+                    Width =660
+                    Height =256
+                    ColumnWidth =1140
+                    FontSize =9
+                    BackColor =8454143
+                    Name ="txtPriority"
+                    ControlSource ="Priority"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =7
+                    GroupTable =1
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =780
+                    LayoutCachedHeight =316
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =2880
+                    Left =840
+                    Top =60
+                    Width =1560
+                    Height =256
+                    FontSize =9
+                    TabIndex =1
+                    Name ="cboLineOfBusiness"
+                    ControlSource ="EWBusLineID"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =8
+                    GroupTable =1
+                    LayoutCachedLeft =840
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =2400
+                    LayoutCachedHeight =316
+                End
+                Begin ComboBox
+                    OldBorderStyle =0
+                    OverlapFlags =85
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    ListWidth =2880
+                    Left =2460
+                    Top =60
+                    Width =2160
+                    Height =256
+                    FontSize =9
+                    TabIndex =2
+                    Name ="cboDepartment"
+                    ControlSource ="Department"
+                    RowSourceType ="Table/View/StoredProc"
+                    ColumnWidths ="0;2880"
+                    FontName ="MS Sans Serif"
+                    ColumnGroup =9
+                    GroupTable =1
+                    AllowValueListEdits =0
+                    InheritValueList =0
+                    LayoutCachedLeft =2460
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =4620
+                    LayoutCachedHeight =316
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =-2147483633
+            Name ="FormFooter"
+            AutoHeight =1
+        End
+    End
+End
+CodeBehindForm
+Attribute VB_GlobalNameSpace = False
+Attribute VB_Creatable = True
+Attribute VB_PredeclaredId = True
+Attribute VB_Exposed = False
+Option Compare Database
+Option Explicit
+
+Dim blnIsValid
+
+Private Sub Form_BeforeInsert(Cancel As Integer)
+    Me.DateAdded = DateTimeFunc.GetOfficeDateTime(App.CurrentOfficeCode)
+    Me.UserIDAdded = App.Username
+    Me!OfficeCode = App.CurrentOfficeCode
+End Sub
+
+Private Sub CheckRequiredFields()
+On Error GoTo Err_Handler
+    'Required fields are Phone, email and Priority
+    
+    If Nz(Me.txtphone, "") = "" Then
+        MsgBox "A phone number is required."
+        Me.txtphone.setFocus
+        blnIsValid = False
+        GoTo Exit_Handler
+    End If
+    
+    If Nz(Me.txtemail, "") = "" Then
+        MsgBox "An Email is required."
+        Me.txtemail.setFocus
+        blnIsValid = False
+        GoTo Exit_Handler
+    End If
+    
+    If Nz(Me.txtPriority, 0) = 0 Then
+        MsgBox "A priority is required."
+        Me.txtPriority.setFocus
+        blnIsValid = False
+        GoTo Exit_Handler
+    End If
+    
+    
+Exit_Handler:
+    On Error Resume Next
+    Exit Sub
+Err_Handler:
+    Debug.Print Err.description
+    Resume Exit_Handler
+End Sub
+
+
+Private Sub CheckForDuplicateEntries()
+On Error GoTo Err_Handler
+Dim strSQL As String
+Dim rsContacts As ADODB.Recordset
+    
+    strSQL = "SELECT * FROM tblOfficeContact WHERE OfficeCode = " & App.CurrentOfficeCode
+
+    If Nz(Me.cboDepartment, "") = "" Then
+        strSQL = strSQL & " AND Department IS NULL"
+    Else
+        strSQL = strSQL & " AND Department = " & Me.cboDepartment
+    End If
+        
+    If Nz(Me.cboLineOfBusiness, "") = "" Then
+        strSQL = strSQL & " AND EWBusLineID IS NULL"
+    Else
+        strSQL = strSQL & " AND EWBusLineID = " & Me.cboLineOfBusiness
+    End If
+        
+    Set rsContacts = DBConnection.ExecuteQuery(strSQL)
+        
+    If Not rsContacts.EOF Then
+        If rsContacts.RecordCount > 1 Then
+            MsgBox "Cannot have duplicates for Office, Department, and Line Of Business."
+            blnIsValid = False
+            GoTo Exit_Handler
+        ElseIf rsContacts("OfficeContactCode") <> Me!OfficeContactCode Then
+            MsgBox "Cannot have duplicates for Office, Department, and Line Of Business."
+            blnIsValid = False
+            GoTo Exit_Handler
+        End If
+    End If
+
+Exit_Handler:
+    On Error Resume Next
+    Exit Sub
+Err_Handler:
+    Debug.Print Err.description
+    Resume Exit_Handler
+End Sub
+
+Private Sub Form_BeforeUpdate(Cancel As Integer)
+    blnIsValid = True
+    Call CheckRequiredFields
+    If blnIsValid Then Call CheckForDuplicateEntries
+    If blnIsValid Then
+        Me.DateEdited = DateTimeFunc.GetOfficeDateTime(App.CurrentOfficeCode)
+        Me.UserIDEdited = App.Username
+    Else
+        Cancel = True
+    End If
+    
+End Sub
+
+Private Sub Form_Load()
+    If Not App.IsAdmin Then
+        Me.AllowEdits = False
+        Me.AllowAdditions = False
+        Me.AllowDeletions = False
+    End If
+    
+    Set cboDepartment.Recordset = DBConnection.ExecuteQuery("SELECT Value, SubCategory FROM tblCodes WHERE Category = 'OfficeContactDeptCombo' ORDER BY CodeID")
+    
+    Set Me.Recordset = DBConnection.ExecuteQuery("SELECT * FROM tblOfficeContact WHERE OfficeCode = " & App.CurrentOfficeCode & " ORDER BY Priority", False, , ConnectedRSEnum.Connected)
+    
+    Set Me.cboLineOfBusiness.Recordset = CbxQuery.LoadTblEWBusLine
+    
+End Sub
+
+Private Sub Form_BeforeDelConfirm(Cancel As Integer, response As Integer)
+    ' Suppress default Delete Confirm dialog box.
+    response = acDataErrContinue
+End Sub
+
+Private Sub Form_Delete(Cancel As Integer)
+    If MsgBox("Are you sure to delete the record?", vbYesNo, "Delete Confirmation") = vbNo Then Cancel = True
+End Sub
